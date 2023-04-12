@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+h1 {
+    color: #FFA559;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    /*16px = 100% = 1em = 1rem(independente do tamanho dos pais, estatico no valor)*/
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #FFA559;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FF6000;
+}
+
+.perfil-foto {
+    width: 270px;
+    border-radius: 100%;
+}
+
+.top-container {
+    background-color: #FFE6C7;
+    position: relative;
+    padding-top: 100px;
+    
+}
+
+.middle-container {
+    margin-top: 100px;
+}
+
+.pro {
+    color: #FF6000;
+}
+
+p {
+    color: #454545;
+    margin: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+a {
+    color: #FF6000;
+    text-decoration: none;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.foto-web {
+    width: 270px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 40px;
+}
+
+.foto-livro {
+    width: 270px;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    margin: 200px 0;
+}
+
+.btn {
+  background: #FFE6C7;
+  background-image: -webkit-linear-gradient(top, #FFE6C7, #FFA559);
+  background-image: -moz-linear-gradient(top, #FFE6C7, #FFA559);
+  background-image: -ms-linear-gradient(top, #FFE6C7, #FFA559);
+  background-image: -o-linear-gradient(top, #FFE6C7, #FFA559);
+  background-image: linear-gradient(to bottom, #FFE6C7, #FFA559);
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 11px 20px 10px 20px;
+  border: solid #cbcdcf 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFA559;
+  background-image: -webkit-linear-gradient(top, #FFA559, #FF6000);
+  background-image: -moz-linear-gradient(top, #FFA559, #FF6000);
+  background-image: -ms-linear-gradient(top, #FFA559, #FF6000);
+  background-image: -o-linear-gradient(top, #FFA559, #FF6000);
+  background-image: linear-gradient(to bottom, #FFA559, #FF6000);
+  text-decoration: none;
+}
+
+footer{
+    background-color: #FFA559;
+    padding: 50px 0 2px 0px;
+}
+
+.footer-link{
+    margin: 20px;
+}
