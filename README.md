@@ -1,2 +1,2 @@
 # Portifolio-2.0
-Portifolio criado através de um curso feito de desenvolvimento full stack
+Portifolio during the bootcamp of web development using only HTML and CSS
